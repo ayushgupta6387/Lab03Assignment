@@ -10,11 +10,9 @@ public class Harmonic {
         for (int i = 1; i <= n; i++) {
             sum = sum + 1.0 / (i);
         }
-
-
-
+        System.out.println(sum);
 
     }
 }
 
-}
+
