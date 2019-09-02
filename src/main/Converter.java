@@ -9,7 +9,7 @@ public class Converter {
         double celsius = 0.0;
         DecimalFormat obj = new DecimalFormat("#.######");
         celsius = (fahrenheit - 32) / 1.8;
-
+        System.out.println(obj.format(celsius));
     }
     }
 
