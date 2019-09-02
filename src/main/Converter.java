@@ -8,6 +8,7 @@ public class Converter {
         double fahrenheit = scanner.nextDouble();
         double celsius = 0.0;
         DecimalFormat obj = new DecimalFormat("#.######");
+        celsius = (fahrenheit - 32) / 1.8;
 
     }
     }
